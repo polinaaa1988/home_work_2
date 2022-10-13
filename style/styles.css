@@ -5,16 +5,10 @@ body{
     color: #363636;
     margin: 0;
     padding: 0;
-    /* max-width: 100%; */
     box-sizing: border-box;
 
 }
-/* @media screen and (max-width: 1300px){
-    body{
-        font-size: 11px;
-    }
-    
-} */
+
 a{
     text-decoration: none;
     margin: 0;
@@ -43,7 +37,7 @@ ul{
 
 /*___________________Черный блок_________________ */
 .black-wrapper{
-    /* width: 100%; */
+   
     background-color: #131313;
     margin: 0, auto;
     padding: 0;
@@ -81,8 +75,6 @@ ul{
     padding-top: 24px;
     padding-bottom: 22px;
     font-size: 84.6%;
-    /* position: relative; */
-    /* height: 8vh; */
     
     
 }
@@ -124,10 +116,7 @@ ul{
     color: #E3B873;
     
 }
-/* .menu_item:not(:first-child):not(:last-child){
-    
-    margin-right: 47px;
-} */
+
 .menu_link_tel{
     margin: 0;
     padding: 0;
@@ -241,7 +230,7 @@ ul{
 
 }
 .black-main-conteiner {
-    /* max-width: 520px; */
+   
     display: inline-block;
     margin: 0, auto;
     padding: 0;
@@ -249,7 +238,7 @@ ul{
     align-items: center;
     justify-content: center; 
     margin-top: 194px;
-    /* margin-left: 134px; */
+   
     margin-right: 562px;
     padding-bottom: 208px;
     z-index: 1;
@@ -277,8 +266,7 @@ ul{
     padding: 0;
     margin-bottom: 41px;
 }
-.main-button {
-}
+
 .main-btn {
     border: white;
     width: 207px;
@@ -301,7 +289,6 @@ ul{
         margin: 0, auto;
         padding: 0;
         display: flex;
-        /* max-height: 476px; */
         width: 100%;
         position: relative; 
         background-image: url(/img/room1.png); 
@@ -318,7 +305,6 @@ ul{
         align-items: center;
         margin: 0, auto;
         padding: 0;
-        /* background-image: url(/img/room1.png); */
         
         
     }
@@ -339,7 +325,7 @@ ul{
     
     }
     .black-main-conteiner {
-        /* max-width: 520px; */
+      
         display: inline-block;
         margin: 0, auto;
         padding: 0;
@@ -347,7 +333,6 @@ ul{
         align-items: center;
         justify-content: center; 
         margin-top: 85px;
-        /* margin-left: 134px; */
         margin-right: 0px; 
         margin-bottom: 35px;
         z-index: 1;
@@ -522,8 +507,7 @@ ul{
     padding: 0;
     display: block;
     width: 50%;
-    
-    
+ 
 }
 
 
@@ -557,7 +541,6 @@ ul{
         margin: 0, auto;
         padding: 0;
         display: flex;
-        /* max-height: 1074px; */
         width: 100%;
         background-color: #131313;
         padding-bottom: 934px;
@@ -596,24 +579,20 @@ ul{
         
     }
     .prj_title {
-        /* display: flex; */
         margin: 0, auto;
         padding: 0;
         max-width: 253px;
         max-height: 66px;
-        /* justify-content: center; */
         text-align: center;
         font-family: 'Yeseva One', cursive;
         font-size: 170%;
         text-transform: uppercase;
-        /* letter-spacing: -0.3px; */
         line-height: 30px;
     
         color: #E3B873;
     
     }
     .prj_text_paragraf {
-        /* display: flex; */
         max-width: 311px;
         margin-top: 24px;
         text-align: center;
@@ -626,9 +605,7 @@ ul{
     .prj_foto_mobil{
         display: contents;
     }
-    .tv{
-
-    }
+   
     .arrow{
         margin-top: -138px;
         margin-bottom: 139px;
@@ -639,9 +616,7 @@ ul{
         transform: rotate(-180deg);
         margin-right: 241px;
     }
-    .back{
-
-    }
+   
     .prj_about {
         display: flex;
         flex-wrap: wrap;
@@ -651,10 +626,7 @@ ul{
         padding: 0;
         align-items: flex-start;
         min-width: 341px;
-        /* max-height: 482px; */
-        
-        
-        
+          
     }
     .prj_comment {
         
@@ -701,7 +673,6 @@ ul{
     margin: 0, auto;
     padding: 0;
     display: flex;
-    /* max-height: 1074px; */
     width: 100%;
     flex-direction: column;
     
@@ -713,11 +684,10 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 817px; */
     margin: 0, auto;
     padding: 0;
     margin-top: -416px;
-    /* margin-left: 311px; */
+   
 }
 .control_black {
     display: block;
@@ -744,12 +714,6 @@ ul{
     margin-bottom: 31px;
 }
 
-.camera_strite {
-    
-
-}
-.camera {
-}
 .control_img {
     
     max-width: 817px;
@@ -760,8 +724,7 @@ ul{
 .control_img_mob{
     display: none;
 }
-.online_control_img {
-}
+
 .control_img_filter {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
@@ -785,7 +748,6 @@ ul{
     color: white;
     height: 85px;
     width: 85px;
-    /* background-position: center; */
     border: none;
     cursor: pointer;
     border-radius: 50%;
@@ -808,14 +770,10 @@ ul{
   
     max-width: 681px;
     margin: 0 auto;
-
-    
     font-size: 138%;
     line-height: 37px;
     text-align: center;
-
     color: #363636;
-
     margin-top: 34px;
 
 }
@@ -841,24 +799,16 @@ margin-right: 58px;
     display: block;
     font-size: 107%;
     line-height: 23px;
-
     color: #363636;
 }
 
 .control_input_label{
     display: block;
     color: rgba(54, 54, 54, 0.5);
-    
+}
 
-}
-.input_name {
-    
-}
-.input_Phone {
-}
 .input_button {
-    /* max-width: 200px;
-    max-height: 51px; */
+  
     background: #E3B873;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     border-radius: 2px;
@@ -936,7 +886,6 @@ margin-right: 58px;
         margin: 0, auto;
         padding: 0;
         margin-top: 0px;
-        /* margin-top: -700px; */
         margin-left: 0px;
     }
     .control_black {
@@ -966,13 +915,7 @@ margin-right: 58px;
         margin-top: 19px;
         margin-bottom: 40px;
     }
-    
-    .camera_strite {
-        
-    
-    }
-    .camera {
-    }
+   
     .control_img {
         display: none;
     }
@@ -993,22 +936,16 @@ margin-right: 58px;
         display: none;
     }
     .control_img_filter_mob {
-        /* display: contents; */
         display: flex;
         content: " ";
         position: absolute;
         background-color: rgba(0, 0, 0, 0.8);
-    
-        
-        margin: 0, auto;
-       
+        margin: 0, auto;     
         padding: 0;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0; 
-        
-        
+        bottom: 0;        
     }
     .control_play{
         display: none;
@@ -1046,17 +983,12 @@ margin-right: 58px;
         
     }
     .control_text {
-      
         max-width: 340px;
-        margin: 0 auto;
-    
-        
+        margin: 0 auto; 
         font-size: 85%;
         line-height: 19px;
-        text-align: center;
-    
-        color: #FFFFFF;
-    
+        text-align: center;  
+        color: #FFFFFF;  
         margin-top: 21px;
     
     }
@@ -1188,9 +1120,7 @@ margin-right: 58px;
     padding: 0px;
     margin: 0, auto;
     color:  #181818;
-
-    font-family: 'Yeseva One', cursive;
-    
+    font-family: 'Yeseva One', cursive;    
     font-size: 154%;
     line-height: 28px;
     text-align: center;
@@ -1204,7 +1134,6 @@ margin-right: 58px;
     display: flex;
     margin-top: 31px;
      flex-direction: row; 
-      /* flex: 0 0 30%;   */
      justify-content: space-between;
     
 }
@@ -1215,8 +1144,7 @@ margin-right: 58px;
 .types_blok_same:not(:last-child){
     margin-right: 30px;
 }
-.types_blok_Redecorating {
-}
+
 .types_list {
     
     margin-top: -127px;
@@ -1226,9 +1154,7 @@ margin-right: 58px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     position: absolute; 
     max-width: 286px;
-    padding-right: 100px;
-  
-    
+    padding-right: 100px;   
 }
 .types_list_tutle {
     margin-top: 25px;
@@ -1236,7 +1162,6 @@ margin-right: 58px;
     font-family: 'Yeseva One', cursive;
     font-size: 138%;
     line-height: 25px;
-
     color: #363636;
 }
 .types_list_ul {
@@ -1247,25 +1172,20 @@ margin-right: 58px;
 }
 .types_item {
     margin-left: 34px;
-    font-family: 'Nunito Sans';
-    
+    font-family: 'Nunito Sans';    
     line-height: 27px;
-
     color: #959595;
 
 }
 .types_button {
-    display: flex;
-    
+    display: flex;    
     padding: 17px 24px;
     border: none;
     box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
     font-family: 'Yeseva One', cursive;
-
     font-size: 138%;
     line-height: 25px;
     text-transform: uppercase;
-
     color: #FFFFFF;
     position: relative;
     top: 159px;
@@ -1273,11 +1193,6 @@ margin-right: 58px;
    
 }
 
-
-.types_blok_Overhaul {
-}
-.types_blok_designer {
-}
 /* types_second */
 
 .types_second {
@@ -1294,9 +1209,7 @@ margin-right: 58px;
 }
 .benefits {
     
-    margin-left: 249px; 
-    
-    
+    margin-left: 249px;   
 }
 .benefits_list {
     display: flex;
@@ -1346,8 +1259,6 @@ margin-right: 58px;
     background-color:#131313; 
  
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-
-
 }
 
 .request_text{
@@ -1364,10 +1275,6 @@ margin-right: 58px;
     
     margin-left: 49px;
     margin-right: 49px;
-    /* max-width: 408px; */
-    /* padding-right: 231px; */
-   
-    /* border-bottom: 1px rgba(255, 255, 255, 0.15); */
     
 }
 .reqest_form:nth-of-type(-n+2){
@@ -1375,7 +1282,6 @@ margin-right: 58px;
 }
 .reqest_input_label {
     line-height: 21px;
-
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1422,9 +1328,7 @@ margin-left: 49px;
 .pig_text {
     font-size: 138%;
     line-height: 26px;
-
     color: #E3B873;
-
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
 @media screen and (max-width: 1300px){
@@ -1451,7 +1355,7 @@ margin-left: 49px;
       line-height: 30px;
       text-align: center;
       text-transform: uppercase;
-      /* position: relative; */
+   
   }
   .types_svg1 {
       margin-top: 17px;
@@ -1463,7 +1367,6 @@ margin-left: 49px;
       margin-top: 40px;
      margin-left: 18px; 
         flex-direction: column; 
-        /* flex: 0 0 30%;   */
        justify-content: center;
        align-items: center;
       
@@ -1477,8 +1380,7 @@ margin-left: 49px;
       margin-right: 18px;
       margin-bottom: 117px;
   }
-  .types_blok_Redecorating {
-  }
+ 
   .types_list {
       
       margin-top: -168px;
@@ -1488,9 +1390,7 @@ margin-left: 49px;
       box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.05);
       position: absolute; 
       max-width: 241px;
-      /* padding-right: 41px; */
-    
-      
+   
   }
   .types_list_tutle {
       margin-top: 21px;
@@ -1509,21 +1409,17 @@ margin-left: 49px;
   }
   .types_item {
       margin-left: 31px;
-      font-family: 'Nunito Sans';
-      
+      font-family: 'Nunito Sans';  
       line-height: 22px;
-  
       color: #959595;
   
   }
   .types_button {
-      display: flex;
-      
+      display: flex;  
       padding: 11px 19px;
       border: none;
       box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
       font-family: 'Yeseva One', cursive;
-  
       font-size: 115%;
       line-height: 21px;
       text-transform: uppercase;
@@ -1535,24 +1431,16 @@ margin-left: 49px;
      
   }
   
-  
-  .types_blok_Overhaul {
-  }
-  .types_blok_designer {
-  }
   /* types_second */
   
   .types_second {
       display: none;
      
   }
-  .benefits {
-   
-  }
+
   .benefits_list {
       display: flex;
-      margin: 0 auto;
-      
+      margin: 0 auto;      
       align-items: center;
   }
   .benefits_list:not(:first-child){
@@ -1566,15 +1454,12 @@ margin-left: 49px;
       border: 8px solid #FFFFFF;
       box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
       border-radius: 30px;
-  
-      font-family: 'Yeseva One', cursive;
-      
+      font-family: 'Yeseva One', cursive;  
       font-size: 138%;
       line-height: 25px;
       text-align: center;
       justify-content: center;
       align-items: center;
-  
       color: #FFFFFF;
       margin: 0;
      
@@ -1582,7 +1467,6 @@ margin-left: 49px;
   .benefits_text {
       font-size: 107%;
       line-height: 19px;
-  
       color: #363636;
   
   }
@@ -1595,19 +1479,14 @@ margin-left: 49px;
       margin-top: 106px;
       margin-left: 131px;
       background-color:#131313; 
-   
       box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-  
-  
   }
   
   .request_text{
       font-size: 138%;
       line-height: 26px;
       text-align: center;
-  
       color: #FFFFFF;
-  
       margin-top: 28px;
       margin-bottom: 39px;
   }
@@ -1615,15 +1494,13 @@ margin-left: 49px;
       
       margin-left: 49px;
       margin-right: 49px;
-      
-      
+    
   }
   .reqest_form:nth-of-type(-n+2){
       margin-bottom: 48px;
   }
   .reqest_input_label {
       line-height: 21px;
-  
       color: rgba(255, 255, 255, 0.5);
   }
   
@@ -1642,8 +1519,8 @@ margin-left: 49px;
   
   
   .reqest_checkbox{
-  margin-top: 16px;
-  margin-left: 49px;
+    margin-top: 16px;
+    margin-left: 49px;
   }
   .reqest_button {
       margin-top: 39px;
@@ -1670,9 +1547,7 @@ margin-left: 49px;
   .pig_text {
       font-size: 138%;
       line-height: 26px;
-  
       color: #E3B873;
-  
       text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
   }
     
@@ -1690,8 +1565,6 @@ margin-left: 49px;
 }
 .section_photo_filter{
     position: absolute;
-    /* background-color: rgba(0, 0, 0, 0.8); */
-
     content: " ";
     margin: 0, auto;
     padding: 0;
@@ -1699,7 +1572,6 @@ margin-left: 49px;
     left: 0;
     right: 0;
     bottom: 0;
-
     background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
 }
 .conteiner_photo {
@@ -1715,21 +1587,17 @@ margin-left: 49px;
 }
 .fantasies_title {
     font-family: 'Yeseva One', cursive;
-    
     font-size: 207%;
     line-height: 37px;
     text-transform: uppercase;
-
     color: #E3B873;
     margin-bottom: 47px;
     margin-top: 0px;
 }
-.fantasies {
-}
+
 .fantasies_item {
     font-size: 154%;
     line-height: 38px;
-
     color: #FFFFFF;
     
 }
@@ -1746,21 +1614,13 @@ margin-left: 49px;
     margin: 0;
     margin-left: 189px;
     max-width: 853px;
-    /* flex-wrap: nowrap;
-    flex-wrap: wrap;  */
     z-index: 4;
-    /* margin-top: -112px; */
     
 }
-
-/* .style_photos:nth-of-type(-n+2){
-    flex-wrap: nowrap;
-} */
 
 .styles_clas_rom{
     margin: 0;
     max-width: 354px;
-    /* margin-top: -112px; */
     margin-right: 43px;
 }
 .styles_scan_prov{
@@ -1770,22 +1630,16 @@ margin-left: 49px;
 .Classical_ing {
     margin-top: -41px; 
     margin-bottom: 39px;
-    /* position: absolute; */
+
 }
 .candinavian_ing {
     margin-top: -112px; 
     margin-bottom: 37px;
-     /* position: absolute; 
-     margin-left: 397px;  */
-     /* margin-bottom: 316px; */
-   
+  
 }
 .Romanticism_ing {
-    /* margin-top: 555px;  */
     margin-bottom: -41px;
-     /* margin-right: 43px; 
-     position: absolute;  
-    z-index: 4; */
+   
 }
 .fantasies_mob {
     display: none;
@@ -1812,27 +1666,21 @@ margin-left: 49px;
     .conteiner_photo {
         display: flex;
         flex-direction: column;
-        /* margin-left: 99px;
-        margin-right: 102px; */
         justify-content: center;
         align-items: center;
         border: none;
     }
     .conteiner_photo_list {
-        /* z-index: 3;
-        margin-top: 137px;
-        margin-bottom: 97px; */
+  
         margin: 0 auto;
     }
     .fantasies_title {
-        font-family: 'Yeseva One', cursive;
-        
+        font-family: 'Yeseva One', cursive;    
         font-size: 169%;
         line-height: 30px;
         text-transform: uppercase;
         text-align: center;
         color: #E3B873;
-
         margin-bottom: 24px;
         margin-top: 0px; 
     }
@@ -1842,7 +1690,6 @@ margin-left: 49px;
     .fantasies_item {
         font-size: 154%;
         line-height: 38px;
-    
         color: #FFFFFF;
         
     }
@@ -1854,9 +1701,7 @@ margin-left: 49px;
         text-decoration: underline;
     }
     .style_photos {
-        display: none;
-       
-        
+        display: none;  
     }
     
 
@@ -1945,29 +1790,25 @@ background-position: left bottom, right bottom;
     display: flex;
     margin-top: 39px;
      flex-direction: row; 
-      /* flex: 0 0 30%;   */
      justify-content: space-between;
      margin-bottom: 381px;
 }
 .clients_columns {
     max-width: 376px;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
-    /* position: absolute; */
     margin: 0;
 }
 
 .clients_columns:nth-of-type(-n+2){
     margin-right: 54px;
 }
-.types_blok_same {
-}
+
 .clients_columns_blok {
     margin: 0;
     
 }
 .clients_photo {
-    display: flex;
-    
+    display: flex; 
     align-items: center;
 }
 .client_face {
@@ -1977,13 +1818,10 @@ background-position: left bottom, right bottom;
 }
 .name {
     
-    font-family: 'Yeseva One', cursive;
-   
+    font-family: 'Yeseva One', cursive; 
     font-size: 138%;
     line-height: 23px;
-
     color: #181818;
-
     margin-left: 23px;
     margin-top: 41px;
     margin-right: 79px;
@@ -1997,10 +1835,8 @@ background-position: left bottom, right bottom;
     line-height: 23px;
     color: #959595;
 }
-.types_button {
-}
+
 .clients_button {
-    /* margin-top: -27px; */
     margin-bottom: -27px;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
     display: flex;
@@ -2084,17 +1920,13 @@ background-position: left bottom, right bottom;
 .questions_form:first-child{
     margin-right: 56px;
 }
-.reqest_form {
-}
+
 .questions_contacts{
     display: flex;
     max-width: 520px;
 
 }
-.questions_input_label {
-}
-.reqest_input_label {
-}
+
 .questions_input_short {
     width: 231px;
     border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
@@ -2108,7 +1940,7 @@ background-position: left bottom, right bottom;
 
 .questions_checkbox{
     margin-top: 48px;
-    /* margin-left: 298px; */
+  
 }
 
 .questions_checkbox_text {
@@ -2119,8 +1951,7 @@ background-position: left bottom, right bottom;
     height: 51px;
     margin-left: 160px;
 }
-.reqest_button {
-}
+
 .adress {
     font-family: 'Yeseva One', cursive;
     
@@ -2160,9 +1991,8 @@ display: none;
         align-items: center;
         background-image: none;
         background-color: #131313;
-        /* background-size: cover; */
         width: 100%;
-        /* position: relative; */
+     
         
     }
     .contacts_filtr {
@@ -2181,9 +2011,7 @@ display: none;
         align-items: center;
         flex-direction: column;
         margin-bottom: 0px;
-        
-       
-        
+    
     }
     .questions_text {
         font-family: 'Yeseva One', cursive;
@@ -2200,7 +2028,6 @@ display: none;
     .questions_form {
         margin: 0;
         padding: 0;
-        /* display: flex; */
         
     }
     .questions_form:first-child{
@@ -2208,9 +2035,7 @@ display: none;
         margin-bottom: 63px;
       
     } 
-    .reqest_form {
-        
-    }
+ 
     .questions_contacts{
         display: flex;
         flex-direction: column;
@@ -2218,15 +2043,11 @@ display: none;
       
     
     }
-    .questions_input_label {
-    }
-    .reqest_input_label {
-    }
+  
     .questions_input_short {
         width: 340px;
         border-bottom: 1px solid  rgba(255, 255, 255, 0.15);
         margin: 0, auto;
-        /* margin-bottom: 63px; */
         
     }
     .questions_input {
@@ -2235,27 +2056,13 @@ display: none;
        margin: 0;
       
     }
-    .questions_name {
-    }
-    .reqest_input {
-    }
-    .control_input_label {
-    }
-    .online_input {
-    }
-    .input_Phone {
-    }
-    
+ 
     .questions_form_Q {
         margin-left: 18px;
         margin-bottom: 0px;
         
     }
-    .questions_Email {
-    }
-    .first-checkbox {
-        
-    }
+ 
     .questions_checkbox{
         margin-top: -21px;
         margin-left: 18px; 
@@ -2264,14 +2071,7 @@ display: none;
         margin-bottom: 67px;
         justify-content: flex-start;
     }
-    .reqest_checkbox {
-    }
-    .label {
-    }
-    .checkbox {
-    }
-    .fake {
-    }
+
     .questions_checkbox_text {
         color: #FFFFFF;
     }
@@ -2283,8 +2083,7 @@ display: none;
         line-height: 27px;
         font-size: 100%;
     }
-    .reqest_button {
-    }
+   
     .adress {
         font-family: 'Yeseva One', cursive;
         
@@ -2298,7 +2097,6 @@ display: none;
         margin-top: 41px;
         margin-left: 18px;
         margin-right: 18px;
-        /* z-index: 3; */
         max-width: 340px;
         padding-left: 15px;
         padding-right: 15px;
@@ -2338,22 +2136,7 @@ display: none;
       padding-top: 48px;
       max-height: 133px;
 }
-.menu_link {
-}
-.header-logo {
-}
-.header_menu {
-}
-.menu_list {
-}
-.menu_item {
-}
-.menu_link2 {
-}
-.menu_link_tel {
-}
-.menu_link_btn {
-}
+
 @media screen and (max-width: 1300px){
     .footer {
         display: none;
