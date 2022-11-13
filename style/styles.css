@@ -444,7 +444,7 @@ ul{
     color: rgba(255, 255, 255, 0.3);
 
 }
-.prj_city_link:hover{
+.prj_city_link:hover, .city_item.active{
     color: #E3B873;
     border-bottom: 1px #E3B873 solid;
     
@@ -489,6 +489,7 @@ ul{
     line-height: 27px;
     margin-bottom: 0px;
     color: #FFFFFF;
+    padding-bottom: 17px;
 }
 .prj_about {
     display: flex;
@@ -497,7 +498,7 @@ ul{
 	justify-content: space-between;
     margin-top: 42px;
     padding: 0;
-    align-items: center;
+    align-items: stretch;
     max-height: 482px;
     
     
@@ -525,15 +526,48 @@ ul{
     line-height: 21px;
     color: #FFFFFF;
     margin-top: 9px;
+    
+    
+    
 }
 .slider {
     margin-top: 80px;
     display: flex;
 }
-.slider_point{
+/* .slider_point{
     margin-left: 17.54px;
+    color: rgba(255, 255, 255, 0.3);
    
-}
+} */
+.slider_dots {
+    display: flex;
+    justify-content: space-around;
+    /* position: absolute; */
+    /* left: 0;
+    bottom: -20px; */
+    width: 122px;
+    height: 10px;
+    padding: 0 29px;
+    
+  }
+
+  .slider_dots-item {
+   
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    /* margin: 0 17px;  */
+    cursor: pointer;
+    transition: background 0.4s ease;
+    /* margin-left: 17.54px; */
+    
+  }
+  
+  .slider_dots-item:hover, .slider_dots-item.active {
+    background: #FFFFFF;
+  }
+
 .slider_arrow{
    
     cursor: pointer;
@@ -541,15 +575,15 @@ ul{
     transition: opacity 0.4s ease;
     
 }
-.slider_arrow_next{
+.slider_arrow_right{
     transform: rotate(180deg);
-    margin-left: 29.5px;
+    /* margin-left: 29.5px; */
     margin-right: 0px;
 }
 
   
   .slider__arrow:hover {
-    opacity: 1;
+    /* opacity: 1; */
   }
   
   
