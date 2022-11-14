@@ -421,7 +421,7 @@ ul{
     padding: 0;
 
 }
-.prj_city {
+/* .prj_city {
     margin: 0;
     padding: 0;
     display: flex;
@@ -435,16 +435,17 @@ ul{
     padding: 0;
     margin-left: 60px;
 
-}
+} */
 .prj_city_link {
     font-family: 'Yeseva One', cursive;
     font-size: 107%;
     text-transform: uppercase;
     padding-bottom: 7px;
     color: rgba(255, 255, 255, 0.3);
+    margin-left: 60px;
 
 }
-.prj_city_link:hover, .city_item.active{
+.prj_city_link:hover, .prj_city_link.active{
     color: #E3B873;
     border-bottom: 1px #E3B873 solid;
     
@@ -507,8 +508,8 @@ ul{
     
     margin: 0, auto;
     padding: 0;
-    display: block;
-    width: 50%;
+    
+    width: 15vw;
  
 }
 

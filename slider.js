@@ -3,18 +3,21 @@ let images = [{
     city: "Rostov-on-Don\n LCD admiral",
     Area: "81 m2",
     Time: "3.5 months",
+    Place: "Rostov-on-Don, Admiral",
     
 }, {
     url: "https://i.pinimg.com/originals/b6/fb/18/b6fb18ee51ac1ff7f482d188361c5c7d.jpg",
     city: "Sochi\n Thieves",
     Area: "105 m2",
     Time: "4 months",
+    Place: "Sochi Thieves",
 
 }, {
     url: "https://i.pinimg.com/originals/81/d2/51/81d251ea94c8ba90cc080240114c5a38.jpg",
     city: "Rostov-on-Don\n Patriotic",
     Area: "93 m2",
     Time: "3 months",
+    Place: "Rostov-on-Don Patriotic",
    
 }];
 
@@ -25,12 +28,12 @@ function initSlider() {
     let sliderArrows = document.querySelector(".slider");
     let sliderDots = document.querySelector(".slider_dots");
     let sliderDetails = document.querySelector(".prj_about");
-    // let sliderCity = document.querySelector(".prj_city");
+    let sliderPlace = document.querySelector(".citys");
 
     initImages();
     initArrows();
     initDots();
-    // initCity();
+    initPlace();
 
     function initImages(){
         images.forEach((image, index) =>{
@@ -60,6 +63,7 @@ function initSlider() {
     images.forEach((image, index) => {
         let dot = `<div class="slider_dots-item n${index} ${index === 0? "active" : ""}" data-index="${index}"></div>`;
         sliderDots.innerHTML += dot;
+        
     });
     sliderDots.querySelectorAll(".slider_dots-item").forEach(dot => {
         dot.addEventListener("click", function() {
@@ -67,7 +71,7 @@ function initSlider() {
             sliderDots.querySelector(".active").classList.remove("active") ;
             this.classList.add("active"); 
         })
-    })
+     })
    }
 
 
@@ -91,12 +95,29 @@ function initSlider() {
 //    }
 
 
+    function initPlace() {
+        
+        images.forEach((image, index) => {
+            let address = `<div class="prj_city_link n${index} ${index === 0? "active" : ""}" data-index="${index}">${images[index].Place}</div>`;
+            sliderPlace.innerHTML += address;
+        });
+        sliderPlace.querySelectorAll(".prj_city_link").forEach(address => {
+            address.addEventListener("click", function() {
+                moveSlider(this.dataset.index);
+                sliderPlace.querySelector(".active").classList.remove("active") ;
+                this.classList.add("active"); 
+            })
+        })
+    }
+
 
     function moveSlider(num) {
         sliderImages.querySelector(".active").classList.remove("active");
         sliderImages.querySelector('.n' + num).classList.add("active");
         sliderDots.querySelector(".active").classList.remove("active");
         sliderDots.querySelector(".n" + num).classList.add("active");
+        sliderPlace.querySelector(".active").classList.remove("active");
+        sliderPlace.querySelector(".n" + num).classList.add("active");
         changeCity(num);
         changeArea(num);
         changeTime(num);
